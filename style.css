@@ -1,0 +1,47 @@
+body{
+
+    background-size: cover;  
+    background-position: center;  
+    
+    }
+    
+    .heading
+    {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    }
+    
+    #status
+    {
+    font-size: 18px;
+    }
+    
+    canvas{
+    
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 10px;
+    
+    }
+
+    .anchor_tag_thingy{
+
+       
+       padding: 10px;
+       font-size: 23px;
+       color: blue;
+       animation-name: color_change;
+       animation-duration: 4s;
+       animation-iteration-count:infinite;
+       box-shadow: 5px 5px 15px darkcyan;
+
+
+    }
+
+
+    @keyframes color_change{
+ 
+        from{background-color: black;}
+        to{background-color: purple;}
+    
+    }
