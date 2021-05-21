@@ -4,7 +4,7 @@ objects = [];
 
 function preload(){
 
-img = loadImage("Home.jpg");
+img = loadImage("Bedroom.jpg");
      
 }
 
@@ -47,7 +47,7 @@ function gotResults(error,results){
 
 function draw(){
 
-image(img,0,0,640,420);
+image(img,15,15,640,420);
  
 if ( status != ""){
 
@@ -66,5 +66,12 @@ if ( status != ""){
    }
 
 }
+
+}
+
+function BacKBed(){
+
+    window.location = "index.html";
+
 
 }
