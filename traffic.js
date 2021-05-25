@@ -47,13 +47,14 @@ function gotResults(error,results){
 
 function draw(){
 
-image(img,15,15,640,420);
+image(img,50,50,600,400);
  
 if ( status != ""){
 
    for( i=0 ; i < objects.length ; i++){
          
     document.getElementById("status").innerHTML = "Status : Objects Identified";
+    document.getElementById("noObj").innerHTML = "Number of objects detected : " + objects.length;
 
     fill("#FF0000");
     percent = floor(objects[i].confidence * 100);
